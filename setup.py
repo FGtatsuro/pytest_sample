@@ -28,6 +28,9 @@ class PyTest(TestCommand):
 
 version = '0.1'
 
+setup_requires=[
+    'pytest'
+]
 install_requires=[]
 test_requires=[
     'pytest'
@@ -48,6 +51,7 @@ setup(name='pytest_sample',
       packages=find_packages(exclude=['ez_setup', 'tests']),
       include_package_data=True,
       zip_safe=False,
+      setup_requires=setup_requires,
       install_requires=install_requires,
       test_requires=test_requires,
       cmdclass={'test': PyTest},
