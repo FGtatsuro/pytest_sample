@@ -10,10 +10,14 @@ Base
 
 .. code:: bash
 
+    $ py.test
+        or
     $ python setup.py test
 
 With pytest options. Please see `pytest --help` if you want to know the details of pytest options.
 
 .. code:: bash
 
+    $ py.test -v
+        or
     $ python setup.py test --pytest-args='-v'
