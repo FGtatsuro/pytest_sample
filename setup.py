@@ -33,6 +33,7 @@ setup_requires=[
 ]
 install_requires=[]
 test_requires=[
+    'pytest-timeout',
     'pytest'
 ]
 
