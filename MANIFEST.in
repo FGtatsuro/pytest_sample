@@ -5,3 +5,4 @@ recursive-include sample *
 recursive-include tests *
 recursive-exclude sample *.pyc
 recursive-exclude tests *.pyc
+prune results
