@@ -35,6 +35,7 @@ install_requires=[
     'requests',
 ]
 tests_require=[
+    'pytest-xdist',
     'pytest-timeout',
     'pytest'
 ]
