@@ -31,9 +31,10 @@ version = '0.1'
 setup_requires=[
     'pytest'
 ]
-install_requires=[]
-tests_require=[
+install_requires=[
     'requests',
+]
+tests_require=[
     'pytest-timeout',
     'pytest'
 ]
