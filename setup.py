@@ -32,7 +32,7 @@ setup_requires=[
     'pytest'
 ]
 install_requires=[]
-test_requires=[
+tests_require=[
     'requests',
     'pytest-timeout',
     'pytest'
@@ -55,6 +55,6 @@ setup(name='pytest_sample',
       zip_safe=False,
       setup_requires=setup_requires,
       install_requires=install_requires,
-      test_requires=test_requires,
+      tests_require=tests_require,
       cmdclass={'test': PyTest},
 )
