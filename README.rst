@@ -22,6 +22,14 @@ With pytest options. Please see `pytest --help` if you want to know the details 
         or
     $ python setup.py test --pytest-args='-v'
 
+On Jenkins, it's better to run tests with `--capture=sys`. Due to this option, test report includes log in stdout.
+
+.. code:: bash
+
+    $ py.test --capture=sys
+        or
+    $ python setup.py test --pytest-args='--capture=sys'
+
 Others
 ------
 
