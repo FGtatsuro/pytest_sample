@@ -42,6 +42,8 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *,cover
+# Test results
+results/*
 
 # Translations
 *.mo
@@ -55,3 +57,4 @@ docs/_build/
 
 # PyBuilder
 target/
+
